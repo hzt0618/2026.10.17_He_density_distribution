@@ -1,0 +1,21 @@
+# GLOW sidecar metadata
+dip_rad=    1.509471
+dip_deg=   86.486305
+raw_dip_deg=   86.486298
+coupling=    0.300000
+output_flux_scale=    1.000000
+feedback_relax=    0.500000
+feedback_diff=   0.441722E+05
+feedback_norm=   0.494352E+08
+phitop_direct_sum=   0.939063E+06
+phitop_feedback_sum=   0.354959E+09
+phitop_total_sum=   0.355898E+09
+iii=21
+src_lat=   80.000000
+src_lon=  109.000000
+mlat_current=   75.609184
+conj_lat=  -68.150627
+conj_lon= -158.670044
+glat_written=   80.000000
+glong_written=  109.000000
+ut_seconds=    0.000000

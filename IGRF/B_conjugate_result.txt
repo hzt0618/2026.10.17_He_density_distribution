@@ -1,0 +1,11 @@
+Input_Latitude_deg: -75.6576940000
+Input_Longitude_deg: 82.8306390000
+Input_Altitude_km: 0.1000000000
+Conjugate_Latitude_deg: -75.6059482863
+Conjugate_Longitude_deg: 80.6693067846
+Conjugate_Altitude_km: 0.0000000000
+Bmax_nT: 55568.8403190158
+Bmin_nT: 55568.8403190158
+LocalB_nT: 55568.8403190158
+Bmax_to_Bmin: 1.0000000000
+LocalB_to_Bmax: 1.0000000000

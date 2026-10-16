@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualStudioProject ProjectCreator="Intel Fortran" Keyword="Console Application" Version="11.0" ProjectIdGuid="{7523E72B-064F-EAFF-1066-692835F3AD01}">
+	<Platforms>
+		<Platform Name="Win32"/>
+		<Platform Name="x64"/>
+	</Platforms>
+	<Configurations>
+		<Configuration Name="Debug|Win32" UseCompiler="ifortCompiler">
+			<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" DebugInformationFormat="debugEnabled" Optimization="optimizeDisabled" WarnInterfaces="true" Traceback="true" BoundsCheck="true" StackFrameCheck="true" RuntimeLibrary="rtMultiThreadedDebugDLL"/>
+			<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" GenerateDebugInformation="true" SubSystem="subSystemConsole"/>
+			<Tool Name="VFResourceCompilerTool"/>
+			<Tool Name="VFMidlTool" SuppressStartupBanner="true"/>
+			<Tool Name="VFCustomBuildTool"/>
+			<Tool Name="VFPreLinkEventTool"/>
+			<Tool Name="VFPreBuildEventTool"/>
+			<Tool Name="VFPostBuildEventTool"/>
+			<Tool Name="VFManifestTool" SuppressStartupBanner="true"/>
+		</Configuration>
+		<Configuration Name="Debug|x64" UseCompiler="ifxCompiler">
+			<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" DebugInformationFormat="debugEnabled" Optimization="optimizeDisabled" WarnInterfaces="true" Traceback="true" BoundsCheck="true" StackFrameCheck="true" RuntimeLibrary="rtMultiThreadedDebugDLL"/>
+			<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" GenerateDebugInformation="true" SubSystem="subSystemConsole"/>
+			<Tool Name="VFResourceCompilerTool"/>
+			<Tool Name="VFMidlTool" SuppressStartupBanner="true" TargetEnvironment="midlTargetAMD64"/>
+			<Tool Name="VFCustomBuildTool"/>
+			<Tool Name="VFPreLinkEventTool"/>
+			<Tool Name="VFPreBuildEventTool"/>
+			<Tool Name="VFPostBuildEventTool"/>
+			<Tool Name="VFManifestTool" SuppressStartupBanner="true"/>
+		</Configuration>
+		<Configuration Name="Release|Win32" UseCompiler="ifortCompiler">
+			<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" RuntimeLibrary="rtMultiThreadedDLL"/>
+			<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" SubSystem="subSystemConsole"/>
+			<Tool Name="VFResourceCompilerTool"/>
+			<Tool Name="VFMidlTool" SuppressStartupBanner="true"/>
+			<Tool Name="VFCustomBuildTool"/>
+			<Tool Name="VFPreLinkEventTool"/>
+			<Tool Name="VFPreBuildEventTool"/>
+			<Tool Name="VFPostBuildEventTool"/>
+			<Tool Name="VFManifestTool" SuppressStartupBanner="true"/>
+		</Configuration>
+		<Configuration Name="Release|x64" UseCompiler="ifxCompiler">
+			<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" RuntimeLibrary="rtMultiThreadedDLL"/>
+			<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" SubSystem="subSystemConsole"/>
+			<Tool Name="VFResourceCompilerTool"/>
+			<Tool Name="VFMidlTool" SuppressStartupBanner="true" TargetEnvironment="midlTargetAMD64"/>
+			<Tool Name="VFCustomBuildTool"/>
+			<Tool Name="VFPreLinkEventTool"/>
+			<Tool Name="VFPreBuildEventTool"/>
+			<Tool Name="VFPostBuildEventTool"/>
+			<Tool Name="VFManifestTool" SuppressStartupBanner="true"/>
+		</Configuration>
+	</Configurations>
+	<Files>
+		<Filter Name="Header Files" Filter="fi;fd"/>
+		<Filter Name="Resource Files" Filter="rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe"/>
+		<Filter Name="Source Files" Filter="f90;for;f;fpp;ftn;def;odl;idl">
+			<File RelativePath=".\bands.f90"/>
+			<File RelativePath=".\cglow.f90"/>
+			<File RelativePath=".\conduct.f90"/>
+			<File RelativePath=".\date_utils.f90"/>
+			<File RelativePath=".\egrid.f90"/>
+			<File RelativePath=".\ephoto.f90"/>
+			<File RelativePath=".\etrans.f90"/>
+			<File RelativePath=".\exsect.f"/>
+			<File RelativePath=".\fieldm.f"/>
+			<File RelativePath=".\gchem.f90"/>
+			<File RelativePath=".\geomag.f90"/>
+			<File RelativePath=".\glow.f90"/>
+			<File RelativePath=".\glow_run_helpers.f90"/>
+			<File RelativePath=".\glowbasic_B.f90">
+				<FileConfiguration Name="Release|x64" ExcludedFromBuild="true">
+				</FileConfiguration>
+				<FileConfiguration Name="Debug|x64" ExcludedFromBuild="true">
+				</FileConfiguration>
+			</File>
+			<File RelativePath=".\glowbasic_Heion.f90">
+				<FileConfiguration Name="Release|x64" ExcludedFromBuild="true">
+				</FileConfiguration>
+				<FileConfiguration Name="Debug|x64" ExcludedFromBuild="true">
+				</FileConfiguration>
+			</File>
+			<File RelativePath=".\glowbasic_Heion_api.f90"/>
+			<File RelativePath=".\glowbasic_local.f90">
+				<FileConfiguration Name="Release|x64" ExcludedFromBuild="true">
+				</FileConfiguration>
+				<FileConfiguration Name="Debug|x64" ExcludedFromBuild="true">
+				</FileConfiguration>
+			</File>
+			<File RelativePath="..\..\glowv0.981\glowbasic_vs01_1.f90">
+				<FileConfiguration Name="Release|x64" ExcludedFromBuild="true">
+				</FileConfiguration>
+				<FileConfiguration Name="Debug|x64" ExcludedFromBuild="true">
+				</FileConfiguration>
+			</File>
+			<File RelativePath="..\..\glowv0.981\glowbasic_vs02_1.f90">
+				<FileConfiguration Name="Release|x64" ExcludedFromBuild="true">
+				</FileConfiguration>
+				<FileConfiguration Name="Debug|x64" ExcludedFromBuild="true">
+				</FileConfiguration>
+			</File>
+			<File RelativePath="..\..\glowv0.981\glowbasic_vs02_Hn_2.f90">
+				<FileConfiguration Name="Release|x64" ExcludedFromBuild="true">
+				</FileConfiguration>
+				<FileConfiguration Name="Debug|x64" ExcludedFromBuild="true">
+				</FileConfiguration>
+			</File>
+			<File RelativePath="..\..\glowv0.981\glowbasic_vs02_Hn_3.f90">
+				<FileConfiguration Name="Release|x64" ExcludedFromBuild="true">
+				</FileConfiguration>
+				<FileConfiguration Name="Debug|x64" ExcludedFromBuild="true">
+				</FileConfiguration>
+			</File>
+			<File RelativePath="..\..\glowv0.981\glowbasic_vs02_Hn_4.f90">
+				<FileConfiguration Name="Release|x64" ExcludedFromBuild="true">
+				</FileConfiguration>
+				<FileConfiguration Name="Debug|x64" ExcludedFromBuild="true">
+				</FileConfiguration>
+			</File>
+			<File RelativePath="..\..\glowv0.981\glowbasic_vs03_Hn.f90">
+				<FileConfiguration Name="Release|x64" ExcludedFromBuild="true">
+				</FileConfiguration>
+				<FileConfiguration Name="Debug|x64" ExcludedFromBuild="true">
+				</FileConfiguration>
+			</File>
+			<File RelativePath=".\iri90.f"/>
+			<File RelativePath=".\main.f90">
+				<FileConfiguration Name="Release|x64" ExcludedFromBuild="true">
+				</FileConfiguration>
+				<FileConfiguration Name="Debug|x64" ExcludedFromBuild="true">
+				</FileConfiguration>
+			</File>
+			<File RelativePath=".\main_hainan.f90">
+				<FileConfiguration Name="Release|x64" ExcludedFromBuild="true">
+				</FileConfiguration>
+				<FileConfiguration Name="Debug|x64" ExcludedFromBuild="true">
+				</FileConfiguration>
+			</File>
+			<File RelativePath=".\main_hainan_year_0600lt.f90">
+			</File>
+			<File RelativePath=".\main_term.f90">
+				<FileConfiguration Name="Release|x64" ExcludedFromBuild="true">
+				</FileConfiguration>
+				<FileConfiguration Name="Debug|x64" ExcludedFromBuild="true">
+				</FileConfiguration>
+			</File>
+			<File RelativePath=".\maxt.f90"/>
+			<File RelativePath=".\mzgrid.f90"/>
+			<File RelativePath=".\mzgrid_elec.f90"/>
+			<File RelativePath=".\nrlmsise00.f"/>
+			<File RelativePath=".\qback.f90"/>
+			<File RelativePath=".\rcolum.f90"/>
+			<File RelativePath=".\rout.f90"/>
+			<File RelativePath=".\snoem.f90"/>
+			<File RelativePath=".\snoemint.f90"/>
+			<File RelativePath=".\solzen.f90"/>
+			<File RelativePath=".\ssflux.f90"/>
+			<File RelativePath=".\sw_daily_lookup.f90"/>
+			<File RelativePath=".\test_ap.f90">
+				<FileConfiguration Name="Release|x64" ExcludedFromBuild="true">
+				</FileConfiguration>
+				<FileConfiguration Name="Debug|x64" ExcludedFromBuild="true">
+				</FileConfiguration>
+			</File>
+			<File RelativePath=".\write_path.f90"/>
+		</Filter>
+		<File RelativePath=".\ReadMe.txt"/>
+	</Files>
+	<Globals/>
+</VisualStudioProject>
